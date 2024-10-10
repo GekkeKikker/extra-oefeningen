@@ -19,7 +19,7 @@ function uitlegBijTypeVanParameter(parameter) {
       uitleg = "De waarde is een functie, bv function hihi(){}";
       break;
     default:
-      uitleg: "geen informatie over dit type!";
+      uitleg = "geen informatie over dit type!";
   }
   console.log(uitleg);
 }
