@@ -9,7 +9,7 @@ function berekenTotaal(aantalLussen) {
   return totaal;
 }
 
-function printTotaal(aantallussen) {
+function printTotaal(aantalLussen) {
   console.log("Het totaal is: ", berekenTotaal(aantalLussen));
 }
 
